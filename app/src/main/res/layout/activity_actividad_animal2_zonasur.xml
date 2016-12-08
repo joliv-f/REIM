@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paisaje_lobo">
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="220dp"
+        android:id="@+id/marcoAnimal2_zonansur"
+        android:layout_gravity="left|center_vertical"
+        android:background="@drawable/marco"
+        android:layout_marginLeft="77dp" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="180dp"
+        android:id="@+id/animal2_zonasur_act"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/lobo_marino"/>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/marcoComidasur2a"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/marco" />
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/alternativa1_zonasur_2"
+        android:layout_gravity="center"
+        android:layout_marginBottom="40dp"
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/marcoComidaSur2b"
+        android:layout_gravity="center_horizontal|bottom"
+        android:background="@drawable/marco" />
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/alternativa2_zonasur_2"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="25dp"
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="38dp"
+        android:id="@+id/marcoComidaSur2c"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/marco"
+        />
+
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/alternativa3_zonasur_2"
+        android:layout_gravity="right|center_vertical"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginRight="88dp"
+        android:layout_marginBottom="7dp"
+        android:id="@+id/marcoComidasur2d"
+        android:layout_gravity="right|bottom"
+        android:background="@drawable/marco"
+        />
+
+    <ImageButton
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:id="@+id/alternativa4_zonasur_2"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="105dp"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/reproComidaSur2"
+        android:layout_gravity="left|bottom"
+        android:layout_marginLeft="125dp"
+        android:layout_marginBottom="35dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bsound" />
+
+
+    <ImageButton
+        android:id="@+id/comparar_sur2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/comparar1_sur2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:visibility="invisible" />
+
+    <ImageButton
+        android:id="@+id/comparar2_sur2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left|top"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/barra_zona_norte"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/marco_actividad1" />
+
+    <TextView
+        android:id="@+id/medallas_sur2"
+        android:layout_width="377dp"
+        android:layout_height="111dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@drawable/rounded_edittext"
+        android:gravity="center_vertical|center_horizontal"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="30dp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="150dp"
+        android:layout_height="106dp"
+        android:layout_gravity="left|top"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/marco_avatarbupa"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <!--<com.github.snowdream.android.widget.SmartImageView
+    android:layout_width="114dp"
+    android:layout_height="85dp"
+    android:id="@+id/avatarAlumMR"
+    android:clickable="true"
+    android:layout_gravity="left|top"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="40dp" />-->
+
+    <ImageButton
+        android:id="@+id/salir_animal2_zonasur"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/marco_avatarbupa"
+        android:src="@drawable/exit" />
+
+    <ProgressBar
+        android:id="@+id/pbbar_lobo_marino"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="60dp"
+        />
+
+</FrameLayout>

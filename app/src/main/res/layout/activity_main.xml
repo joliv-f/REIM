@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/planeta_tierra">
+
+
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="480dp"
+        android:id="@+id/chile"
+        android:layout_gravity="center|left"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/chile2"/>
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="170dp"
+        android:id="@+id/zona1"
+        android:layout_gravity="top|left"
+        android:layout_marginLeft="174dp"
+        android:layout_marginTop="50dp"
+
+       />
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="170dp"
+        android:id="@+id/zona2"
+        android:layout_gravity="center|left"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="150dp"
+
+
+        />
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="130dp"
+        android:id="@+id/zona3"
+        android:layout_gravity="bottom|left"
+        android:layout_marginLeft="147dp"
+        android:layout_marginBottom="20dp"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/salir_menu_principal"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/marco_avatarbupa"
+        android:src="@drawable/exit" />
+
+
+
+</FrameLayout>

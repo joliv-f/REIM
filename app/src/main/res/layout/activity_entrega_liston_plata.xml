@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/fondom2"
+    android:orientation="vertical"
+    tools:context="com.example.joliv.anchi13.entrega_liston_prueba">
+
+    <TextView
+        android:id="@+id/submarcoEntregaL2_ofi"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="160dp"
+        android:background="@drawable/entrega_liston2" />
+
+    <TextView
+        android:id="@+id/marcoEntregaL2_ofi"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="160dp"
+        android:background="@drawable/entrega_liston22" />
+
+    <ImageView
+        android:id="@+id/entregaOfiL2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="160dp"
+        android:src="@drawable/bupamplata" />
+
+    <ImageButton
+        android:id="@+id/flechaPlata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="200dp"
+        android:background="#00ffffff"
+        android:src="@drawable/flechaverde" />
+
+
+</FrameLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joliv.anchi13">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".login_nuevo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".menu_zona_norte" />
+        <activity android:name=".menu_zona_centro" />
+        <activity android:name=".menu_zona_sur" />
+        <activity android:name=".actividad_animal1_zonanorte" />
+        <activity android:name=".actividad_animal2_zonanorte" />
+        <activity android:name=".actividad_animal3_zonanorte" />
+        <activity android:name=".actividad_amimal1_zonacentro" />
+        <activity android:name=".actividad_animal2_zonacentro" />
+        <activity android:name=".actividad_animal3_zonacentro" />
+        <activity android:name=".actividad_animal1_zonasur" />
+        <activity android:name=".actividad_animal2_zonasur" />
+        <activity android:name=".actividad_animal3_zonasur" />
+        <activity android:name=".entrega_liston_oro_zonasur" />
+        <activity android:name=".entrega_liston_oro_zonacentro" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".entrega_liston_prueba" />
+        <activity android:name=".entrega_liston_plata" />
+        <activity android:name=".entrega_liston_oro" />
+        <activity android:name=".seleccion_curso" />
+        <activity android:name=".seleccion_alumno"></activity>
+    </application>
+
+</manifest>
